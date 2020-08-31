@@ -1,0 +1,16 @@
+[package]
+name = "gravity-sys"
+version = "0.1.0"
+authors = ["HalidOdat <halidodat@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+
+[build-dependencies]
+cc = { version = "1.0.59", features = ["parallel"] }
+bindgen = "0.55.1"
