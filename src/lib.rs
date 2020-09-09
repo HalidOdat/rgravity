@@ -2,11 +2,11 @@
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 
-include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
+pub mod bindings;
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::bindings::*;
 
     #[test]
     fn example() {
