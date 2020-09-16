@@ -1,5 +1,5 @@
 [package]
-name = "gravity-sys"
+name = "rgravity"
 version = "0.1.0"
 authors = ["HalidOdat <halidodat@gmail.com>"]
 edition = "2018"
