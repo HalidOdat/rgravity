@@ -96,8 +96,8 @@ fn main() {
             format!("-I{}/", SHARED_DIR),
             format!("-I{}/", UTILS_DIR),
         ])
-        // Whitelist only functions the start with a prefix.
-        .whitelist_function("(gravity|json|token|gnode|ircode)_.*")
+        // // Whitelist only functions the start with a prefix.
+        // .whitelist_function("(gravity|json|token|gnode|ircode)_.*")
         // The input header we would like to generate
         // bindings for.
         .header("wrapper.h")
